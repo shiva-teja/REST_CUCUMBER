@@ -1,0 +1,37 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@gmail.in",
+    "password": "pistol"
+}
+HTTP/1.1 400 Bad Request
+Date: Fri, 05 Feb 2021 12:59:11 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 57
+Connection: keep-alive
+Set-Cookie: __cfduid=dbc4b4655d6fddcb7b1e0fb7c2a2e9a4d1612529951; expires=Sun, 07-Mar-21 12:59:11 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"39-6jrJxn+7f+pQUhbPgNMst7tagpA"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0813df7ab60000d9d0669da000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2FEySNzfHpsMlbtZlCMWfoBvsJzqBc%2BOtQCm24QwqiAk1TAdynvmR8DdDO%2F362dLFDpZxgRrKGj79w5aaS4fz9ykJEcRJ53HzIq4%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 61cccea45d36d9d0-SIN
+
+{
+    "error": "Note: Only defined users succeed registration"
+}
